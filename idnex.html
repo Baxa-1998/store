@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <div class="container">
+        <main>
+            <div class="first_page">
+                <ion-icon name="sunny-outline"></ion-icon>
+                <h1 class="title">Категория товаров (8 категорий)</h1>
+                <div class="first_page_phone">
+                    <a class="first_page_item" href="#down">
+                        <p class="Smartphone__title">Смартфоны</p>
+                        <p class="page__subtitle">0 товаров,0 c гарантией</p>
+                        <img class="page__photo" src="./images/iphone_12pro_gold.jpg" alt="">
+                    </a>
+                    <a class="first_page_item" href="#down">
+                        <p class="Notebook__title">Ноутбуки</p>
+                        <p class="page__subtitle">0 товаров,0 c гарантией</p>
+                        <img class="page__photo" src="./images/notebook.jpg" alt="">
+                    </a>
+
+                    <a class="first_page_item" href="#down">
+                        <p class="Fridge__title">Холодильники</p>
+                        <p class="page__subtitle">0 товаров,0 c гарантией</p>
+                        <img class="page__photo" src="./images/201034-400400.jpg" alt="">
+                    </a>
+
+                    <a class="first_page_item" href="#down">
+                        <p class="Televisor__title">Телевизоры</p>
+                        <p class="page__subtitle">0 товаров,0 c гарантией</p>
+                        <img class="page__photo" src="./images/Televisor.jpg" alt="">
+                    </a>
+
+
+                    <a class="first_page_item" href="#down">
+                        <p class="Videocard__title">Видеокарты</p>
+                        <p class="page__subtitle">0 товаров,0 c гарантией</p>
+                        <img class="page__photo" src="./images/videocard.jpg" alt="">
+                    </a>
+
+
+
+
+                </div>
+            </div>
+            <hr>
+            <!-- <div class="line"></div> -->
+            <div class="second_page">
+                <div class="left_page">
+                    <ul class="page__category">
+                        <a href="#"><li class="category__title">Категории</li></a>
+                        <a href="#"><li class="category__item">Смартфоны</li></a>
+                        <a href="#"><li class="category__item">Ноутбуки</li></a>
+                        <a href="#"><li class="category__item">Холодильники</li></a>
+                        <a href="#"><li class="category__item">Телевизоры</li></a>
+                        <a href="#"><li class="category__item">Видеокарты</li></a>
+                   
+                    </ul>
+                    <!-- <p class="page__title">Категории</p>
+                    <a href="">
+                        <p class="page__subtitle">Смартфоны</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Ноутбуки</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Холодильники</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Телевизоры</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Видеокарты</p>
+                    </a> -->
+                    <form action="">
+                          <p class="price__title">Цена товара</p>
+                    <input class="price__item" type="text" placeholder="От">
+                    <input class="price__item" type="text" placeholder="До">
+                    <p class="price__title">Скидка</p>
+                    <span>
+                        <a href="#">
+                            <p class="page__yes">Да</p>
+                        </a>
+                        <a href="#">
+                            <p class="page__no">Нет</p>
+                        </a>
+                    </span>
+                    <p class="Garant__title">Гарантия</p>
+                    <span>
+                        <a href="#">
+                            <p class="page__yes">Да</p>
+                        </a>
+                        <a href="#">
+                            <p class="page__no">Нет</p>
+                        </a>
+                    </span>
+                    <p class="page__title">Производитель</p>
+                    <ul>
+                        <a href="#"><li class="generator__subtitle">Samsung</li></a>
+                        <a href="#"><li class="generator__subtitle">Samsung</li></a>
+                        <a href="#"><li class="generator__subtitle">Samsung</li></a>
+                        <a href="#"><li class="generator__subtitle">Samsung</li></a>
+                        <a href="#"><li class="generator__subtitle">Samsung</li></a>
+                    </ul>
+                    <!-- <a href="#">
+                        <p class="page__subtitle">Samsung</p>
+                    </a>
+                    <a href="#">
+                        <p class="page__subtitle">Samsung</p>
+                    </a>
+                    <a href="#">
+                        <p class="page__subtitle">Samsung</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Samsung</p>
+                    </a>
+                    <a href="">
+                        <p class="page__subtitle">Samsung</p>
+                    </a> -->
+                    <p class="page__title">Год выпуска</p>
+                    <input class="page__year" type="number" placeholder="От">
+                    <p class="page__title">Цвет товара</p>
+                    <div class="color_block">
+                        <div class="color_item1"></div>
+                        <div class="color_item2"></div>
+                        <div class="color_item3"></div>
+                    </div>
+                    <button class="done">Done</button>
+                    <button class="reset" type="reset">Сбросить</button>
+                    </form>
+                  
+
+                </div>
+                <div class="right_page">
+                    <header>
+                        <div class="like__number">0</div>
+                        <div class="trolley__number">0</div>
+                        <div class="like__icon"><img class="like" src="./icons/like.png" alt=""></div>
+                        <div class="trolley__icon"><img class="trolley" src="./icons/trolley-cart-4202388.png" alt="">
+                        </div>
+                        <input class="search__item" type="search" placeholder="Поиск товаров по имени">
+                        <button class="find__button">Найти</button>
+                        <p class="total__price">Общий чек товаров 0</p>
+                        <p class="total__cashback">Общий кэшбек 0</p>
+                    </header>
+                    <h1 class="title2">Смартфоны</h1>
+                    <div id="down" class="second_page_phone">
+                        <div class="second_page_item">
+                            <p class="second_page_title">Iphone-12</p>
+                            <p class="phone__subtitle">С гарантией</p>
+                            <p class="phone__price">$1299</p>
+                            <div class="calc">
+                                <button class="inp_minus">-</button>
+                                <input class="inp_number" type="text" value="0">
+                                <button class="inp_plus">+</button>
+                            </div>
+                            <p class="add__trolley">Добавить карзину</p>
+                            <img class="heart_white_icon" src="./icons/heart-white.png" alt="">
+                            <img class="heart_blue_icon" src="./icons/heart-blue.png" alt="">
+                            <img class="second_page_photo" src="./images/iphone_12pro_gold.jpg" alt="">
+                        </div>
+                        <!-- <div class="second_page_item">
+                            <p class="second_page_title">Iphone-12</p>
+                            <p class="page__subtitle">С гарантией</p>
+                            <p class="phone__price">$1299</p>
+                            <div class="calc">
+                                <button class="inp_minus">-</button>
+                                <input class="inp_number" type="text" value="0">
+                                <button class="inp_plus">+</button>
+                            </div>
+                            <p class="add__trolley">Добавить карзину</p>
+                            <img class="heart_white_icon" src="./icons/heart-blue.png" alt="">
+                            <img class="second_page_photo" src="./images/iphone_12pro_gold.jpg" alt="">
+                        </div> -->
+
+
+
+
+                    </div>
+                </div>
+
+        </main>
+    </div>
+    <script src="./script/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https: // unpkg .com / ionicons @ 5.5.2 / dist / ionicons / ionicons.js "></script>
+</body>
+
+</html>
